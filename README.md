@@ -1,5 +1,7 @@
 # go-yit - YAML Iterator
 
+[![GoDoc](https://godoc.org/github.com/dprotaso/go-yit?status.svg)](https://godoc.org/github.com/dprotaso/go-yit)
+
 ## Introduction
 
 This library compliments [go-yaml v3](https://github.com/go-yaml/yaml/tree/v3) by adding
