@@ -1,6 +1,6 @@
 package yit
 
-import "go.yaml.in/yaml/v3"
+import "go.yaml.in/yaml/v4"
 
 func (next Iterator) AnyMatch(p Predicate) bool {
 	iterator := next.Filter(p)
