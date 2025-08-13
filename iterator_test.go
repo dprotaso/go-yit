@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"
 
-	"go.yaml.in/yaml/v3"
+	"go.yaml.in/yaml/v4"
 )
 
 var _ = Describe("Iterator", func() {
@@ -70,7 +70,6 @@ var _ = Describe("Iterator", func() {
 
 			_, ok := next()
 			Expect(ok).To(BeFalse())
-
 		},
 
 		Entry("scalar", nil /* no values */),
