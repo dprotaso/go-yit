@@ -5,7 +5,7 @@ go 1.23.0
 require (
 	github.com/onsi/ginkgo v1.16.5
 	github.com/onsi/gomega v1.39.0
-	go.yaml.in/yaml/v4 v4.0.0-rc.3
+	go.yaml.in/yaml/v4 v4.0.0-rc.4
 )
 
 require (
